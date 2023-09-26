@@ -1,6 +1,7 @@
 import torch
 import torch.nn as nn
 from multiheadattention import MultiHeadAttention
+from positionwisefeedforward import PositionWiseFeedForward
 
 
 class EncoderLayer(nn.Module):
